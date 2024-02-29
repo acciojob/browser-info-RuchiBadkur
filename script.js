@@ -8,6 +8,7 @@
 
 const body = document.querySelector("body");
 const div = document.createElement("div");
+div.id = "browser-info";
 const browserName = navigator.appName;
 const version = navigator.appVersion;
 const text = document.createTextNode("You are using " + browserName + " version " + version);
